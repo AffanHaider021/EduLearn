@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">EduLearn</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Contact Us</h1>
+        <p>Have a question? Send us a message</p>
+    </div>
+
+    <div class="section">
+        <div class="contact-wrapper">
+
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>If you have any questions about the courses or the website, feel free to send a message using the form.</p>
+
+                <div class="info-item">
+                    <strong>Email:</strong>
+                    <span>2600018@students.au.edu.pk</span>
+                </div>
+                <div class="info-item">
+                    <strong>University:</strong>
+                    <span>Air University Islamabad</span>
+                </div>
+                <div class="info-item">
+                    <strong>Class:</strong>
+                    <span>ADCS-1-A</span>
+                </div>
+                <div class="info-item">
+                    <strong>Roll No:</strong>
+                    <span>2600018</span>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <h2>Send a Message</h2>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="What is it about?">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+                </div>
+                <button class="btn" onclick="submitForm()">Send Message</button>
+                <p id="form-msg" class="form-success"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section gray">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    Are the courses on this website free?
+                    <span class="faq-arrow">+</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, all courses and resources on EduLearn are completely free. There are no charges.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    Who made this website?
+                    <span class="faq-arrow">+</span>
+                </div>
+                <div class="faq-answer">
+                    This website was made by Muhammad Affan Haider, a 1st semester student of ADCS at Air University Islamabad, as a final project for the ICT Lab course.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    What subjects are available?
+                    <span class="faq-arrow">+</span>
+                </div>
+                <div class="faq-answer">
+                    Currently we have courses in Computer Science (HTML, CSS, JavaScript, C++), Mathematics, and Science (Physics, Chemistry).
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    Can I suggest a new topic or course?
+                    <span class="faq-arrow">+</span>
+                </div>
+                <div class="faq-answer">
+                    Yes! You can use the contact form above to send us your suggestion and we will try to add it.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>EduLearn &copy; 2026 | Made by Affan Haider | Roll No: 2600018 | ADCS-1-A</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

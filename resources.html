@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Resources</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">EduLearn</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="resources.html" class="active">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Learning Resources</h1>
+        <p>Useful links, notes, and materials to help you study</p>
+    </div>
+
+    <div class="section">
+        <h2>Useful Websites</h2>
+        <table class="subjects-table">
+            <tr>
+                <th>Website</th>
+                <th>What it is for</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>W3Schools</td>
+                <td>HTML, CSS, JavaScript tutorials</td>
+                <td><a href="https://www.w3schools.com" target="_blank">Visit</a></td>
+            </tr>
+            <tr>
+                <td>Khan Academy</td>
+                <td>Math, Science, and more</td>
+                <td><a href="https://www.khanacademy.org" target="_blank">Visit</a></td>
+            </tr>
+            <tr>
+                <td>YouTube</td>
+                <td>Video tutorials on all topics</td>
+                <td><a href="https://www.youtube.com" target="_blank">Visit</a></td>
+            </tr>
+            <tr>
+                <td>MDN Web Docs</td>
+                <td>Detailed web development documentation</td>
+                <td><a href="https://developer.mozilla.org" target="_blank">Visit</a></td>
+            </tr>
+            <tr>
+                <td>GeeksforGeeks</td>
+                <td>Programming and CS topics</td>
+                <td><a href="https://www.geeksforgeeks.org" target="_blank">Visit</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section gray">
+        <h2>Quick Notes</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>HTML Cheat Sheet</h3>
+                <p>Common HTML tags you should remember:</p>
+                <ul>
+                    <li>&lt;h1&gt; to &lt;h6&gt; - Headings</li>
+                    <li>&lt;p&gt; - Paragraph</li>
+                    <li>&lt;a&gt; - Link</li>
+                    <li>&lt;img&gt; - Image</li>
+                    <li>&lt;table&gt; - Table</li>
+                    <li>&lt;ul&gt; &lt;ol&gt; - Lists</li>
+                    <li>&lt;div&gt; - Container</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>CSS Cheat Sheet</h3>
+                <p>Common CSS properties you should know:</p>
+                <ul>
+                    <li>color - text color</li>
+                    <li>background-color - background</li>
+                    <li>font-size - text size</li>
+                    <li>margin - outside space</li>
+                    <li>padding - inside space</li>
+                    <li>border - border around element</li>
+                    <li>display - how element is shown</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>JavaScript Cheat Sheet</h3>
+                <p>Basic JavaScript things to remember:</p>
+                <ul>
+                    <li>let / const - variables</li>
+                    <li>if / else - conditions</li>
+                    <li>for / while - loops</li>
+                    <li>function - reusable code</li>
+                    <li>array - list of values</li>
+                    <li>console.log() - print output</li>
+                    <li>document.getElementById() - get element</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Recommended Books</h2>
+        <table class="subjects-table">
+            <tr>
+                <th>Book Name</th>
+                <th>Subject</th>
+                <th>Good For</th>
+            </tr>
+            <tr>
+                <td>HTML and CSS: Design and Build Websites</td>
+                <td>Web Development</td>
+                <td>Complete Beginners</td>
+            </tr>
+            <tr>
+                <td>JavaScript: The Good Parts</td>
+                <td>JavaScript</td>
+                <td>Beginners to Intermediate</td>
+            </tr>
+            <tr>
+                <td>C++ Primer</td>
+                <td>C++ Programming</td>
+                <td>First Year CS Students</td>
+            </tr>
+            <tr>
+                <td>Head First HTML and CSS</td>
+                <td>Web Development</td>
+                <td>Visual Learners</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section gray">
+        <h2>Study Tips</h2>
+        <div class="tips-list">
+            <div class="tip-item">
+                <span class="tip-number">1</span>
+                <p>Practice writing code every day, even if it is just for 30 minutes.</p>
+            </div>
+            <div class="tip-item">
+                <span class="tip-number">2</span>
+                <p>Do not just copy code. Try to understand what each line is doing.</p>
+            </div>
+            <div class="tip-item">
+                <span class="tip-number">3</span>
+                <p>When you get an error, read the error message carefully before asking for help.</p>
+            </div>
+            <div class="tip-item">
+                <span class="tip-number">4</span>
+                <p>Build small projects. Even a simple calculator or to-do list teaches a lot.</p>
+            </div>
+            <div class="tip-item">
+                <span class="tip-number">5</span>
+                <p>Use Google and YouTube. Every programmer uses them all the time.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>EduLearn &copy; 2026 | Made by Affan Haider | Roll No: 2600018 | ADCS-1-A</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
